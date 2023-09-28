@@ -1,0 +1,88 @@
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+/* Estilo para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+/* Estilo para o título no cabeçalho */
+header h1 {
+    font-size: 36px;
+}
+/* Estilo para a navegação no cabeçalho */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Estilo para as seções */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+/* Estilo para os títulos das seções */
+section h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+
+/* Estilo para as imagens nas seções */
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Estilo para o vídeo nas seções */
+video {
+    max-width: 100%;
+    height: auto;
+}
+/* Estilo para o formulário */
+form {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
